@@ -3,7 +3,7 @@ class App {
 
     public function __construct () {
         echo "test";
-        return echo $this->create_html ();
+        return $this->create_html ();
     }
 
     public function create_html () {
